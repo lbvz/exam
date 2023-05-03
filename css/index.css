@@ -31,22 +31,22 @@ body{
     background-color: rgb(243, 207, 202);
 }
 
-#cards{
+#sweet{
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
 }
-#cards section{
+#sweet section{
     flex: 0 1 100%;
     border: 1px black solid;
 }
-#cards section.s1{
+#sweet section.s1{
     background-color: rgb(192, 192, 238);
 }
-#cards section.s2{
+#sweet section.s2{
     background-color: rgba(230, 238, 230, 0.048);
 }
-#cards h1{
+#sweet h1{
     text-align: center;
     margin: 2em 0em;
 }
@@ -79,7 +79,7 @@ header img{
         width: 720px;
        
     }
-    #cards section{
+    #sweet section{
         flex: 0 1 50%;
        
     }
@@ -97,7 +97,7 @@ header img{
     #root {
         width: 1140px;
     }
-    #cards section{
+    #sweet section{
         flex: 1 1 33%;
        
     }
